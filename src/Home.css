@@ -1,0 +1,54 @@
+.home-container {
+  padding: 20px;
+  text-align: center;
+  color:#fff
+}
+
+.rooms {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.room-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 200px;
+  padding: 10px;
+  color: black;
+}
+
+.room-card img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.room-card h3 {
+  margin: 10px 0;
+}
+
+.room-card button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body{
+  background-image: url("https://media.cntraveler.com/photos/53daefdd6dec627b14a0cf90/master/pass/monte-carlo-bay-hotel-resort-monte-carlo-monaco-106840-1.jpg");
+}
+.about{
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1f/af/21/shore-hotel-exterior.jpg?w=1200&h=-1&s=1");
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 80%;
+  padding: 50px;
+  align-items: center;
+  color: #fff;
+}
